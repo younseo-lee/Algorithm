@@ -28,5 +28,6 @@ int main(void) {
 		else if (result[i] < 0) cout << "Evil eradicates all trace of Good" << endl;
 		else if (result[i] == 0) cout << "No victor on this battle field" << endl;
 	}
+	
 	return 0;
 }

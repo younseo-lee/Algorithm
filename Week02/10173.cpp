@@ -21,5 +21,6 @@ int main(void) {
 		if (v[i] == 1) cout << "Found" << endl;
 		else cout << "Missing" << endl;
 	}
+	
 	return 0;
 }

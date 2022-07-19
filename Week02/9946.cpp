@@ -18,6 +18,7 @@ int main(void) {
 			else v.push_back(0);
 		}	
 	}
+	
 	for (int i = 0; i < v.size(); i++) {
 		if (v[i] == 0) cout << "Case " << i + 1 << ": different" << endl;
 		else cout << "Case " << i + 1 << ": same" << endl;

@@ -24,6 +24,5 @@ int main(void) {
 	else if (hc == sc)cout << "unsure";
 	else if (hc > sc) cout << "happy";
 	else cout << "sad";
-
 	return 0;
 }

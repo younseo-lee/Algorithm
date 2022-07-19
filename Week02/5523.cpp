@@ -13,6 +13,7 @@ int main(void) {
 		if (A > B) cA++;
 		else if (A < B) cB++;
 	}
+	
 	cout << cA << ' ' << cB << endl;
 	return 0;
 }

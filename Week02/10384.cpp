@@ -34,5 +34,6 @@ int main(void) {
 
 		flag0 = 0; flag1 = 0; flag2 = 0;
 	}
+	
 	return 0;
 }

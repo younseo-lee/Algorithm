@@ -49,6 +49,5 @@ int main(void) {
 			else cout << v.back() << endl;
 		}
 	}
-
 	return 0;
 }

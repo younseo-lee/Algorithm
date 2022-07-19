@@ -24,6 +24,6 @@ int main(void) {
 	for (auto i : m) {
 		if (i.second == 1) cout << i.first << '\n';
 	}
-;
+
 	return 0;
 }

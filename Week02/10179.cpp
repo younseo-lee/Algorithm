@@ -16,6 +16,5 @@ int main(void) {
 	for (int i = 0; i < n; i++) {
 		cout << '$' << price[i] * 0.8 << endl;
 	}
-
 	return 0;
 }

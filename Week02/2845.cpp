@@ -4,7 +4,6 @@ using namespace std;
 int main(void) {
 	int people, space;
 	cin >> people >> space;
-
 	people *= space;
 
 	int news[5];

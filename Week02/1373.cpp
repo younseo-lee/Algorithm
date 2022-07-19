@@ -13,5 +13,6 @@ int main(void) {
 	for (int i = end; i < s.size(); i += 3) {
 		cout << (int)(s[i] - '0') * 4 + (int)(s[i + 1] - '0') * 2 + (int)(s[i + 2] - '0');
 	}
+	
 	return 0;
 }

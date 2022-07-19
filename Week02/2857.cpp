@@ -17,5 +17,6 @@ int main(void) {
 		flag = 1;
 	}
 	if (!flag) cout << "HE GOT AWAY!";
+	
 	return 0;
 }

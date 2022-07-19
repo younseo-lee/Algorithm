@@ -38,6 +38,7 @@ int main(void) {
 		r1 = '=';
 		r2 = '/';
 	}
+	
 	cout << a << r1 << b << r2 << c;
 	return 0;
 }

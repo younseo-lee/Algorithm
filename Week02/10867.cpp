@@ -14,6 +14,5 @@ int main(void) {
 	for (int i = 0; i < 2001; i++) {
 		if (cnt[i] > 0) cout << i - 1000 << ' ';
 	}
-
 	return 0;
 }
