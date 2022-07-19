@@ -36,33 +36,4 @@ int main(void) {
 	}
 	cout << n1 << ' ' << n2;
 	return 0;
-
-	/*
-	sort(acid.begin(), acid.end());
-	sort(alk.begin(), alk.end(), greater<>());
-
-	if (acid.size() == 0) {
-		cout << alk[1] << ' ' << alk[0];
-		return 0;
-	}
-	else if (alk.size() == 0) {
-		cout << acid[0] << ' ' << acid[1];
-		return 0;
-	}
-
-	int result = 2000000000;
-	int n1, n2;
-	for (int i = 0; i < acid.size(); i++) {
-		for (int j = 0; j < alk.size(); j++) {
-			if (acid[i] + alk[j] < -result) break;
-			if (abs(acid[i] + alk[j]) < result) {
-				result = abs(acid[i] + alk[j]);
-				n2 = acid[i];
-				n1 = alk[j];
-			}
-		}
-	}
-	cout << n1 << ' ' << n2;
-	return 0;
-	*/
 }

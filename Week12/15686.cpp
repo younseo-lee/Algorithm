@@ -53,4 +53,5 @@ void distance(int index, int cnt, int n) {
 		distance(i + 1, cnt + 1, n);
 		store[i] = 0;
 	}
+	return;
 }

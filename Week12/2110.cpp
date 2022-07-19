@@ -32,7 +32,6 @@ int main(void) {
 		}
 		else end = mid - 1;
 	}
-
 	cout << result;
 	return 0;
 }

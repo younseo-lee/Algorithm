@@ -20,6 +20,7 @@ int main(void) {
 		team(0, 0, i);
 	}
 	cout << result;
+	return 0;
 }
 
 void team(int index, int cnt, int n) {
