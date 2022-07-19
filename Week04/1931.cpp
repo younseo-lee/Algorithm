@@ -19,7 +19,6 @@ int main(void) {
 
 	int max = find_max(v);
 	cout << max;
-
 	return 0;
 }
 

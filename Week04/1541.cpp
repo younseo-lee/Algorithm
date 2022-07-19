@@ -9,6 +9,7 @@ int main(void) {
 
 	int start = 0, minus = -1;
 	vector<int> v;
+	
 	for (int i = 0; i < s.size(); i++) {
 		if (s[i] == '+' || s[i] == '-') {
 			temp = s.substr(start, i - start);

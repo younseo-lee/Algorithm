@@ -20,6 +20,7 @@ int main(void) {
 		result += price[i] * sum;
 		i = temp;
 	}
+	
 	cout << result;
 	return 0;
 }

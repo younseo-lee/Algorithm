@@ -8,6 +8,7 @@ int main(void) {
 
 	int* price = new int[N];
 	for (int i = 0; i < N; i++) cin >> price[i];
+	
 	sort(price, price + N);
 	reverse(price, price + N);
 
