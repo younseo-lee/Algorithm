@@ -24,7 +24,6 @@ int main(void) {
 			else value[i][j] = value[i - 1][j];
 		}
 	}
-
 	cout << value[N][K];
 	return 0;
 }

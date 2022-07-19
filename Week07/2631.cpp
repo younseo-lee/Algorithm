@@ -22,6 +22,5 @@ int main(void) {
 		if (max > inc_max) inc_max = max;
 	}
 	cout << N - inc_max;
-
 	return 0;
 }

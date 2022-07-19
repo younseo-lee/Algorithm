@@ -36,7 +36,6 @@ int main(void) {
 		}
 		sem_count++;
 	}
-
 	for (int i = 1; i <= N; i++) cout << sem[i] << " ";
 	return 0;
 }
