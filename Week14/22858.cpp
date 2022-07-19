@@ -20,6 +20,5 @@ int main(void) {
 		memcpy(S, tmp, (N + 1) * sizeof(int));
 	}
 	for (int i = 1; i <= N; i++) cout << S[i] << ' ';
-
 	return 0;
 }

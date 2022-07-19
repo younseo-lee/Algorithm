@@ -41,7 +41,6 @@ int main(void) {
 		vis[train[i]] = true;
 		count++;
 	}
-
 	cout << count;
 	return 0;
 }

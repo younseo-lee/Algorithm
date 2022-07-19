@@ -4,11 +4,10 @@
 using namespace std;
 
 int main(void) {
-    int N;
+    int N, S, E;
     cin >> N;
 
     vector<pair<int, int>> v;
-    int S, E;
     for(int i = 0; i < N; i++) {
         cin >> S >> E;
         v.push_back(make_pair(S, E));

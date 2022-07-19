@@ -39,4 +39,6 @@ void zoac(int start, int end) {
 
     zoac(min + 1, end);
     zoac(start, min - 1);
+
+    return;
 }
