@@ -27,6 +27,5 @@ int dfs(int index) {
 		if (i + term[i] > N) continue;
 		max_price[index] = max(max_price[index], price[i] + dfs(i + term[i]));
 	}
-
 	return max_price[index];
 }

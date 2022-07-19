@@ -40,7 +40,6 @@ int main(void) {
 			_max = max(_max, shape5(i, j));
 		}
 	}
-
 	cout << _max;
 	return 0;
 }
