@@ -5,8 +5,7 @@ int main(void) {
 	int N, M;
 	cin >> N >> M;
 
-	int* card = new int[N];
-	int min = 0;
+	int* card = new int[N], min = 0;
 	for (int i = 0; i < N; i++) cin >> card[i];
 
 	for (int i = 0; i < N - 2; i++) {

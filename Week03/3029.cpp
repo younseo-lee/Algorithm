@@ -35,6 +35,5 @@ int main(void) {
 	cout.width(2);
 	cout.fill('0');
 	cout << t % 60;
-
 	return 0;
 }

@@ -6,7 +6,7 @@ int main(void) {
 	int N;
 	cin >> N;
 
-	int K;	// 3 ¡Â K ¡Â 1,000
+	int K;	// 3 ï¿½ï¿½ K ï¿½ï¿½ 1,000
 	int push = 1, cnt, min = 0;
 	vector<int> v;
 	for (int i = 0; i < N; i++) {
@@ -40,4 +40,5 @@ int main(void) {
 		if (flag) cout << 1 << '\n';
 		else cout << 0 << '\n';
 	}
+	return 0;
 }

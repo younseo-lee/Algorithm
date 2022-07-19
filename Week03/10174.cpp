@@ -18,5 +18,6 @@ int main(void) {
 		if (flag) cout << "No\n";
 		else cout << "Yes\n";
 	}
+	
 	return 0;
 }

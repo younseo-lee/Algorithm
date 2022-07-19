@@ -25,6 +25,7 @@ int main(void) {
 			}
 		}
 	}
+	
 	if (flag == 1) cout << "DECREASING";
 	else if (flag == 0) cout << "NEITHER";
 	else if (flag == -1) cout << "INCREASING";

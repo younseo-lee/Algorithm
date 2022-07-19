@@ -18,6 +18,5 @@ int main(void) {
 	}
 	if (count <= 2) cout << "It is a prime word.";
 	else cout << "It is not a prime word.";
-
 	return 0;
 }

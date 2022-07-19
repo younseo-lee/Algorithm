@@ -28,6 +28,5 @@ int main(void) {
 	
 	set<int>::iterator iter;
 	for (iter = A.begin(); iter != A.end(); iter++) cout << *iter << ' ';
-
 	return 0;
 }

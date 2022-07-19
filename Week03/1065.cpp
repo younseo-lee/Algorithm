@@ -23,6 +23,7 @@ int main(void) {
 			if (i < X / 100 || tmp_ten < ten || (tmp_ten == ten && tmp_one <= one)) count++;
 		}
 	}
+	
 	cout << count;
 	return 0;
 }

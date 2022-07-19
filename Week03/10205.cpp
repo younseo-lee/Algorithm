@@ -16,5 +16,6 @@ int main(void) {
 		}
 		cout << "Data Set " << i + 1 << ":\n" << head << "\n\n";
 	}
+	
 	return 0;
 }

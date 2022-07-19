@@ -26,6 +26,7 @@ int main(void) {
 	for (int i = 0; i < v.size() - 1; i++) {
 		cout << v[i] << ',';
 	}
+	
 	cout << v.back();
 	return 0;
 }

@@ -11,6 +11,5 @@ int main(void) {
 		sum = (A / B) * (A / B);
 		cout << sum << '\n';
 	}
-
 	return 0;
 }

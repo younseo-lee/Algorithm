@@ -15,6 +15,7 @@ int main(void) {
 			sum += abs(dot[i] - dot[j]) * 2;
 		}
 	}
+	
 	cout << sum;
 	return 0;
 }

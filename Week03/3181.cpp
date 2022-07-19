@@ -23,5 +23,6 @@ int main(void) {
 		}
 		else cout << (char)toupper(v[i][0]);
 	}
+	
 	return 0;
 }

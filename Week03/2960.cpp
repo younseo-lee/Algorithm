@@ -23,7 +23,6 @@ int main(void) {
 			cnt++;
 		}
 	}
-
 	delete[] check;
 	return 0;
 }
