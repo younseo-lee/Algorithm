@@ -2,8 +2,8 @@
 using namespace std;
 
 int* arr;
-
 int make_one(int N);
+
 int main(void) {
 	int N;
 	cin >> N;

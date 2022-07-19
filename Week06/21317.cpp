@@ -15,7 +15,6 @@ int main(void) {
 
 	int min_energy = min_jump(0, 0);
 	cout << min_energy;
-
 	return 0;
 }
 

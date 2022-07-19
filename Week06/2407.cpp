@@ -15,7 +15,6 @@ int main(void) {
 
 	string cal = cal_pascal(n, m);
 	cout << cal;
-
 	return 0;
 }
 

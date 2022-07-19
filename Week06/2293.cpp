@@ -18,7 +18,6 @@ int main(void) {
 	}
 
 	cout << count[k];
-
 	return 0;
 }
 
