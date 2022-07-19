@@ -13,6 +13,5 @@ int main(void) {
 		}
 	}
 	std::cout << count;
-
 	return 0;
 }

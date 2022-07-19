@@ -25,7 +25,6 @@ int main(void) {
 	}
 
 	std::cout << x << ' ' << y << std::endl;
-	
 	return 0;
 }
 

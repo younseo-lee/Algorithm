@@ -20,6 +20,7 @@ int main(void) {
 				}
 			}
 		}
+		
 		if (score[i][3] - score[i][1] >= 4) std::cout << "KIN" << std::endl;
 		else {
 			int sum = score[i][1] + score[i][2] + score[i][3];

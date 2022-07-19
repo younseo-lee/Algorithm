@@ -9,6 +9,7 @@ int main(void) {
 			if (min == 0 || min > num) min = num;
 		}
 	}
+	
 	if (sum == 0) std::cout << -1 << std::endl;
 	else std::cout << sum << '\n' << min << std::endl;
 

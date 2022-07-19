@@ -14,6 +14,5 @@ int main(void) {
 		sum += num;
 	}
 	std::cout << sum << std::endl;
-
 	return 0;
 }

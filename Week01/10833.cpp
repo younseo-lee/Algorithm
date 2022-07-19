@@ -10,6 +10,5 @@ int main(void) {
 		sum += apple % stud;
 	}
 	std::cout << sum << std::endl;
-
 	return 0;
 }

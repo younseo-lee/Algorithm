@@ -13,7 +13,6 @@ int main(void) {
 		if (fir[(int)(S[i] - 'a')] == -1) 
 			fir[(int)(S[i] - 'a')] = i;
 	}
-
 	for (int i = 0; i < 26; i++) cout << fir[i] << ' ';
 	return 0;
 }

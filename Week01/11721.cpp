@@ -9,5 +9,6 @@ int main(void) {
 		if (i > 0 && i % 10 == 0) std::cout << std::endl;
 		std::cout << word[i];
 	}
+	
 	return 0;
 }

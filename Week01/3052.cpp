@@ -12,6 +12,7 @@ int main(void) {
 		}
 		if (flag == 0) rem[count++] = r;
 	}
+	
 	std::cout << count << std::endl;
 	return 0;
 }

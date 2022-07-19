@@ -11,6 +11,7 @@ int main(void) {
 		if (word[i] >= 'a') alpha[(int)(word[i] - 'a')]++;
 		else alpha[(int)(word[i] - 'A')]++;
 	}
+	
 	int max = alpha[0], max2 = 0, index = 0;
 	for (int i = 1; i < 26; i++) {
 		if (alpha[i] > max) {

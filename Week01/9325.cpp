@@ -15,6 +15,7 @@ int main(void) {
 			s[i] += q * p;
 		}
 	}
+	
 	for (int i = 0; i < num; i++)
 		std::cout << s[i] << std::endl;
 

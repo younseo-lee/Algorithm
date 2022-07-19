@@ -16,5 +16,6 @@ int main(void) {
 		T -= temp * 60;
 		std::cout << T / 10 << std::endl;
 	}
+	
 	return 0;
 }
