@@ -60,6 +60,5 @@ int main(void) {
 	
 	if (!flag || (visited[N][M] > T && sword > T)) cout << "Fail";
 	else cout << min(sword, visited[N][M]);
-
 	return 0;
 }

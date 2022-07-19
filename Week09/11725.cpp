@@ -11,7 +11,6 @@ int main(void) {
 
 	int N;
 	cin >> N;
-
 	vector<int>* v = new vector<int>[N + 1];
 
 	int n1, n2;

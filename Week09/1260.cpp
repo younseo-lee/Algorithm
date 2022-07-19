@@ -23,7 +23,6 @@ int main(void) {
 
 	int* dfs_visited = new int[N + 1]{ 0 };
 	dfs(dfs_visited, V);
-
 	cout << endl;
 
 	int* bfs_visited = new int[N + 1]{ 0 };
