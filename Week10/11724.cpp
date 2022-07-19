@@ -24,7 +24,6 @@ int main(void) {
 	for (int i = 1; i <= N; i++) {
 		if (!node[i]) count++;
 	}
-
 	cout << count;
 	return 0;
 }

@@ -30,7 +30,6 @@ int main(void) {
 			}
 		}
 	}
-	
 	cout << result;
 	return 0;
 }

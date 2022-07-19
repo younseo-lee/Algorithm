@@ -22,7 +22,6 @@ int main(void) {
 	cin >> R >> C;
 
 	queue<struct pos> q;
-
 	for (int i = 0; i < R; i++) {
 		for (int j = 0; j < C; j++) {
 			cin >> maze[i][j];

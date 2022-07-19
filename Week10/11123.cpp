@@ -14,7 +14,6 @@ int main(void) {
 
 	for (int t = 0; t < T; t++) {
 		cin >> H >> W;
-
 		sheep = new int* [H + 2];
 		visited = new int* [H + 2];
 
