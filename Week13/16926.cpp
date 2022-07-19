@@ -19,6 +19,8 @@ int main(void) {
 		for (int j = 0; j < M; j++) cout << arr[i][j] << ' ';
 		cout << endl;
 	}
+
+	return 0;
 }
 
 void rotation(void) {

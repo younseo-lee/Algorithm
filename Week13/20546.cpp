@@ -8,7 +8,6 @@ int main(void) {
 	int stock[14] = { 0, };
 	for (int i = 0; i < 14; i++) cin >> stock[i];
 
-	// ÁØÇö
 	int left_money = money, stock_num = 0;
 	for (int i = 0; i < 14; i++) {
 		int buy = left_money / stock[i];
@@ -17,7 +16,6 @@ int main(void) {
 	}
 	int jun_profit = left_money + stock_num * stock[13];
 
-	// ¼º¹Î
 	left_money = money; stock_num = 0;
 	int change = 0;
 	for (int i = 1; i < 14; i++) {

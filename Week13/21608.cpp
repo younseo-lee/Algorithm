@@ -29,13 +29,6 @@ int main(void) {
 		}
 		find_seat(num);
 	}
-
-	/*
-	for (int i = 0; i < N; i++) {
-		for (int j = 0; j < N; j++) cout << seat[i][j] << ' ';
-		cout << endl;
-	}
-	*/
 	
 	int sum = 0;
 	for (int i = 0; i < N; i++) {
