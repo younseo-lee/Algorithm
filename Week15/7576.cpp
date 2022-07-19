@@ -46,7 +46,6 @@ int main(void) {
             max_date = max(max_date, tomato[i][j]);
         }
     }
-
     cout << max_date - 1;
     return 0;
 }

@@ -45,4 +45,5 @@ int main(void) {
         }
         cout << count << endl;
     }
+    return 0;
 }

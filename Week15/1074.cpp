@@ -25,7 +25,6 @@ int main(void) {
             y = tmp_y;
         }
     }
-    
     cout << count;
     return 0;
 }
