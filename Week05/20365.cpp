@@ -13,7 +13,6 @@ int main(void) {
 	for (int i = 1; i < s.size(); i++) {
 		if (s[i - 1] != s[i]) count++;
 	}
-
 	cout << 1 + (count + 1) / 2;
 	return 0;
 }

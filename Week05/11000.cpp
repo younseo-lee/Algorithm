@@ -6,10 +6,9 @@
 using namespace std;
 
 int main(void) {
-	int N;
+	int N, S, T;
 	cin >> N;
 
-	int S, T;
 	vector<pair<int, int>> v;
 	for (int i = 0; i < N; i++) {
 		cin >> S >> T;

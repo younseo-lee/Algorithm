@@ -15,4 +15,6 @@ int main(void) {
 	}
 	if (A == B) cout << count + 1;
 	else cout << -1;
+
+	return 0;
 }

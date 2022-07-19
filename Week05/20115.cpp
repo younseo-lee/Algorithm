@@ -15,6 +15,5 @@ int main(void) {
 		sum += liter[i] / 2.0;
 	}
 	cout << sum;
-
 	return 0;
 }

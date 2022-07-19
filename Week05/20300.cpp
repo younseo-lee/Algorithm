@@ -21,6 +21,5 @@ int main(void) {
 		if (max < loss[i] + loss[N - 1 - i]) max = loss[i] + loss[N - 1 - i];
 	}
 	cout << max;
-
 	return 0;
 }
