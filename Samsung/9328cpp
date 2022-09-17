@@ -1,0 +1,20 @@
+#include <iostream>
+using namespace std;
+
+int arr[100][100] = {0,};
+int main(void) {
+    int T;
+    cin >> T;
+
+    int h, w;
+    for(int t = 0; t < T; t++) {
+        cin >> h >> w;
+
+        for(int i = 0; i < h; i++) {
+            for(int j = 0; j < w; j++) cin >> arr[i][j];
+        }
+    
+
+
+    }
+}
